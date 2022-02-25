@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+
+	if(strncmp("soft","Soft",4))
+         printf("SAME\n");
+	else
+	printf("NOT SAME\n");
+	return 0;
+}
